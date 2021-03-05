@@ -7,6 +7,7 @@ const Banner = () => (
   <div className="banner">
     <div className="banner-text">
       We help you find houses, you make them home!
+      <input type="text" class="search" placeholder="Search property"/>
     </div>
     <div className="banner-image">
       <img src={image} alt="" />

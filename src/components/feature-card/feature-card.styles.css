@@ -1,0 +1,32 @@
+.feature-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #f85757;
+  border-radius: 4px;
+  height: 300px;
+  width: 220px;
+  color: white;
+  padding: 8px;
+  transform: scale(1);
+  transition: transform 500ms ease-out;
+  box-shadow: 0 4px 24px 4px #f85757;
+}
+
+.feature-card:hover {
+  transform: scale(1.1);
+  transition: transform 500ms ease-out;
+}
+
+.icon {
+  font-size: 3rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.description {
+  font-size: 0.9rem;
+}

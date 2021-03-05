@@ -1,0 +1,10 @@
+.tie-ups {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+
+.tie-up-image {
+  width: 350px;
+  height: 250px;
+}

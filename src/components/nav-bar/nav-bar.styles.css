@@ -6,8 +6,13 @@
 }
 
 .navbar-logo {
+  width: 13%;
+  height: 40px;
   font-size: 1.6rem;
   color: #F85757;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .other-elements {
