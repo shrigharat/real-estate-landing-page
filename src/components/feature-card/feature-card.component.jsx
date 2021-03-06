@@ -8,7 +8,7 @@ const FeatureCard = ({feature}) => (
     <span className="title">
        {feature.title}
     </span>
-    <span className="description">
+    <span className="feature-description">
       {feature.description}
     </span>
   </div>
