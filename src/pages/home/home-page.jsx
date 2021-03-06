@@ -9,18 +9,21 @@ import "./home-page.styles.css";
 const HomePage = () => {
   const features = [
     {
+      id: 1,
       icon: "fas fa-search-location ",
       title: "Convenient search",
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
     },
     {
+      id: 2,
       icon: "fas fa-headset",
       title: "24x7 Customer support",
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
     },
     {
+      id: 3,
       icon: "fas fa-fighter-jet",
       title: "Best in class deals",
       description:
@@ -35,7 +38,7 @@ const HomePage = () => {
       <h1 style={{marginTop: "60px", fontSize: "2rem"}}>Features</h1>
       <div className="feature-container">
         {features.map((feature) => (
-          <FeatureCard feature={feature} />
+          <FeatureCard key={feature.id} feature={feature} />
         ))}
       </div>
       </section>

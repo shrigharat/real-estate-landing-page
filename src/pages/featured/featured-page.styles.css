@@ -1,0 +1,16 @@
+.featured-header {
+  font-size: 1.6rem;
+  text-align: left;
+  margin-top: 3%;
+  margin-left: 1%;
+}
+
+.featured-grid {
+  margin: 3% auto;
+  width: 94%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(410px, 1fr));
+  justify-content: space-between;
+  column-gap: 3%;
+  row-gap: 20px;
+}

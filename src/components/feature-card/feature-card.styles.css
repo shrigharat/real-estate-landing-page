@@ -10,7 +10,7 @@
   padding: 8px;
   transform: scale(1);
   transition: transform 500ms ease-out;
-  box-shadow: 0 4px 24px 4px #f85757;
+  box-shadow: 0 4px 20px 2px #f85757;
 }
 
 .feature-card:hover {
